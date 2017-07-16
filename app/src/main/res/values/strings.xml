@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">Snooker Score Keeper App</string>
     <string name="textPlayerA">Ronnie O\'Sullivan</string>
     <string name="textPlayerB">Mark Williams</string>
@@ -12,11 +13,5 @@
     <string name="textPinkBallButton">+6 Pink Ball</string>
     <string name="textBlackBallButton">+7 Black Ball</string>
     <string name="textResetScoreButton">Reset Score</string>
-    <string name="one">1</string>
-    <string name="two">2</string>
-    <string name="three">3</string>
-    <string name="four">4</string>
-    <string name="five">5</string>
-    <string name="six">6</string>
-    <string name="seven">7</string>
+
 </resources>

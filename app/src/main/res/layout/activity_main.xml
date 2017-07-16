@@ -18,33 +18,38 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/PlayerA_Name"
+                android:id="@+id/playerA_name"
                 style="@style/TextStylePlayerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
                 android:text="@string/textPlayerA" />
 
             <TextView
                 android:id="@+id/playerA_score"
                 style="@style/ScoreTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
                 android:text="@string/textPlayerAScore" />
 
             <Button
-                android:id="@+id/red_ball_button_playerA"
+                android:id="@+id/player_A_red_ball_button"
                 style="@style/ButtonStyle"
-                android:onClick="addForPlayerA"
                 android:tag="@string/one"
                 android:text="@string/text_red_ball_button"
                 android:textColor="@color/colorTextRedButton" />
 
             <Button
-                android:id="@+id/YellowdBallb_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerA"
-                android:tag="@string/two"
+                android:tag="@string/yellow_ball"
                 android:text="@string/textYellowdBallButton"
                 android:textColor="@color/colorTextYellowButton" />
 
             <Button
-                android:id="@+id/GreenBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerA"
                 android:tag="@string/three"
@@ -52,7 +57,6 @@
                 android:textColor="@color/colorTextGreenButton" />
 
             <Button
-                android:id="@+id/BrownBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerA"
                 android:tag="@string/four"
@@ -60,7 +64,6 @@
                 android:textColor="@color/colorTextBrownButton" />
 
             <Button
-                android:id="@+id/BlueBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerA"
                 android:tag="@string/five"
@@ -68,7 +71,6 @@
                 android:textColor="@color/colorTextBlueButton" />
 
             <Button
-                android:id="@+id/PinkBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerA"
                 android:tag="@string/six"
@@ -76,7 +78,6 @@
                 android:textColor="@color/colorTextPinkButton" />
 
             <Button
-                android:id="@+id/BlackBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerA"
                 android:tag="@string/seven"
@@ -95,15 +96,22 @@
             <TextView
                 android:id="@+id/PlayerB_Name"
                 style="@style/TextStylePlayerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
                 android:text="@string/textPlayerB" />
 
             <TextView
-                android:id="@+id/PlayerB_Score"
+                android:id="@+id/playerB_score"
                 style="@style/ScoreTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
                 android:text="@string/textPlayerAScore" />
 
             <Button
-                android:id="@+id/red_ball_button_playerB"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerB"
                 android:tag="@string/one"
@@ -111,15 +119,13 @@
                 android:textColor="@color/colorTextRedButton" />
 
             <Button
-                android:id="@+id/YellowdBallb_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerB"
-                android:tag="@string/two"
+                android:tag="@string/yellow_ball"
                 android:text="@string/textYellowdBallButton"
                 android:textColor="@color/colorTextYellowButton" />
 
             <Button
-                android:id="@+id/GreenBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerB"
                 android:tag="@string/three"
@@ -127,7 +133,6 @@
                 android:textColor="@color/colorTextGreenButton" />
 
             <Button
-                android:id="@+id/BrownBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerB"
                 android:tag="@string/four"
@@ -135,7 +140,6 @@
                 android:textColor="@color/colorTextBrownButton" />
 
             <Button
-                android:id="@+id/BlueBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerB"
                 android:tag="@string/five"
@@ -143,7 +147,6 @@
                 android:textColor="@color/colorTextBlueButton" />
 
             <Button
-                android:id="@+id/PinkBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerB"
                 android:tag="@string/six"
@@ -151,20 +154,19 @@
                 android:textColor="@color/colorTextPinkButton" />
 
             <Button
-                android:id="@+id/BlackBall_Button"
                 style="@style/ButtonStyle"
                 android:onClick="addForPlayerB"
                 android:tag="@string/seven"
                 android:text="@string/textBlackBallButton"
                 android:textColor="@color/colorTextBlackButton" />
+
         </LinearLayout>
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/ResetScore_Button"
+        android:id="@+id/reset_score_button"
         style="@style/ResetButtonStyle"
-        android:onClick="resetScore"
         android:text="@string/textResetScoreButton" />
 
 </RelativeLayout>
