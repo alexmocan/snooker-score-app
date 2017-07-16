@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPlayerName">#616161</color>
+    <color name="colorScore">#000000</color>
+    <color name="colorTextRedButton">#f44336</color>
+    <color name="colorTextYellowButton">#ffff00</color>
+    <color name="colorTextGreenButton">#1b5e20</color>
+    <color name="colorTextBrownButton">#3e2723</color>
+    <color name="colorTextBlueButton">#0d47a1</color>
+    <color name="colorTextPinkButton">#e91e63</color>
+    <color name="colorTextBlackButton">#000000</color>
+</resources>

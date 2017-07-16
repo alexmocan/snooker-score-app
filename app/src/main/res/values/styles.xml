@@ -1,0 +1,57 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#00b0ff</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#BDBDBD</item>
+    </style>
+
+    <!-- Player Text Style. -->
+    <style name="TextStylePlayerName" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPlayerName</item>
+    </style>
+
+    <!-- Score Text Style. -->
+    <style name="ScoreTextStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorScore</item>
+    </style>
+
+    <!-- Button Style. -->
+    <style name="ButtonStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+    </style>
+
+    <!-- Reset Button Style. -->
+    <style name="ResetButtonStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- View Style - Vertical line from center of the screen. -->
+    <style name="ViewStyle" parent="AppTheme">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+</resources>
