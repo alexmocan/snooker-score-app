@@ -18,7 +18,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/PlayerA_Name"
+                android:id="@+id/playerA_name"
                 style="@style/TextStylePlayerName"
                 android:text="@string/textPlayerA" />
 
